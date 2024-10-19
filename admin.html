@@ -9,6 +9,10 @@
 <body>
   <div>
     <h1>Admin Page</h1>
+    <div class="button-container">
+      <button onclick="window.location.href='admin_table.html'">View Data</button>
+      <button onclick="window.location.href='user.html'">Check User</button>
+    </div>
     <form id="adminForm">
       <input type="text" id="username" placeholder="Username" required>
       <input type="text" id="contract" placeholder="Договор">
@@ -17,7 +21,6 @@
       <input type="text" id="payment" placeholder="Ожидание оплаты">
       <button type="submit">Add/Update</button>
     </form>
-    <a href="admin_table.html">View All User Data</a>
   </div>
   <script src="js/script.js"></script>
 </body>
