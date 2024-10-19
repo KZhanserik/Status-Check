@@ -1,3 +1,12 @@
+import { createClient } from 'jsr:@supabase/supabase-js@2'
+
+  
+    const { createClient } = supabase
+    const _supabase = createClient('https://yvhqgibsscpouhpvnbii.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inl2aHFnaWJzc2Nwb3VocHZuYmlpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjkyNTc5MDUsImV4cCI6MjA0NDgzMzkwNX0.10FEBBrn0AvhaJMblGsqY-CE9f6xkqkfcsh00kgaONg')
+  
+    console.log('Supabase Instance: ', _supabase);
+
+
 document.addEventListener('DOMContentLoaded', () => {
   const adminForm = document.getElementById('adminForm');
   const userForm = document.getElementById('userForm');
